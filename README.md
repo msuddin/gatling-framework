@@ -7,7 +7,6 @@ What is the purpose of this project?
 
 Answer:
 * Written a very basic simulation file that runs a simple gatling load script
-* 
 
 ## Instructions
 From the root directory of the project, run the following command:
