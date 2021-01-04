@@ -5,7 +5,7 @@ import io.gatling.core.Predef._
 
 class BasicSimulation extends Simulation {
 
-  val httpConf = http.baseURL("https://www.ikea.com/")
+  val httpConf = http.baseUrl("https://www.ikea.com/")
 
   val scn = scenario("Basic Simulation")
     .exec(http("IKEA Landing Page")
